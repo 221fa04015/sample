@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./reg.html">Register</a>
+        <a href="./login.html">Login</a>
+        <a href="./dashboard.html">DashBoard</a>
+        <a href="./about.html">About Us</a>
+      </nav>
+    </header>
+    <!-- <main> -->
+    <div id="transition" class="registration-form">
+      <h1>Registration Form</h1>
+      <fieldset>
+        <legend>
+          <h2><em>Personal Details : </em></h2>
+        </legend>
+        <form action="#" method="post">
+          <p>First Name :</p>
+          <input
+            id="in"
+            type="text"
+            name="firstname"
+            placeholder="enter first name"
+          />
+          <p>Last Name :</p>
+          <input
+            id="in"
+            type="text"
+            name="lastname"
+            placeholder="enter last name"
+          />
+
+          <p>Father Name :</p>
+          <input
+            id="in"
+            type="text"
+            name="fathername"
+            placeholder="enter father name"
+          />
+          <p>Mother Name :</p>
+          <input
+            id="in"
+            type="text"
+            name="mothername"
+            placeholder="enter mother name"
+          />
+          <p>Father's Occupation</p>
+          <label for="occupation">:</label>
+
+          <select name="occupation" id="occupation">
+            <option id="in" value="">select your option</option>
+            <option id="in" value="private">Private Sector</option>
+            <option id="in" value="teacher">Teacher</option>
+            <option id="in" value="government">Government Employee</option>
+            <option id="in" value="ussiness">Bussiness</option>
+            <option id="in" value="worker">Worker</option>
+          </select>
+          <p>Enter your Gender :</p>
+          <!-- <label for="gender">Enter your Gender :</label><br /> -->
+          <input type="radio" id="gender" name="gender" value="Female" />
+          <label for="gender">Female</label>
+          <input type="radio" id="gender" name="gender" value="Male" />
+          <label for="gender">Male</label><br />
+        </form>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <h2><em>Educational Details :</em></h2>
+        </legend>
+        <p>Collage Name:</p>
+        <!-- <label for="collagename">Collage Name:</label> -->
+        <input
+          id="in"
+          type="text"
+          name="collagename"
+          value="Vignan University"
+          readonly
+        />
+        <p>Registration Number:</p>
+        <!-- <label for="regno">Registration Number:</label> -->
+        <input id="in" type="text" id="regno" name="regno" />
+        <p>Select your Branch :</p>
+        <!-- <label for="branch">Select your Branch : </label> -->
+        &nbsp;&nbsp;&nbsp;
+        <select name="branchs" id="branch">
+          <option id="in" value="">select your option</option>
+          <option id="in" value="cse">CSE</option>
+          <option id="in" value="ece">ECE</option>
+          <option id="in" value="eee">EEE</option>
+          <option id="in" value="biotect">Biotech</option>
+          <option id="in" value="civil">Civil</option>
+        </select>
+        <p>Year of Pass :</p>
+        <!-- <label for="pass">Year of Pass : </label> -->
+        <select name="pass" id="pass">
+          <option id="in" value="">select your year</option>
+          <option id="in" value="2022">2022</option>
+          <option id="in" value="2023">2023</option>
+          <option id="in" value="2024">2024</option>
+          <option id="in" value="2025">2025</option>
+          <option id="in" value="2026">2026</option>
+          <option id="in" value="2027">2027</option>
+          <option id="in" value="2028">2028</option>
+        </select>
+        <p>Email :</p>
+        <!-- <label for="email">Email : </label> -->
+        <input id="in" type="email" id="email" name="email" />
+
+        <p>Skills :</p>
+        <!-- <label for="skills">Skills :</label><br /> -->
+        <input type="checkbox" id="skills" name="skills" value="Female" />
+        <label for="gender">Python</label>
+        <input type="checkbox" id="skills" name="skills" value="Male" />
+        <label for="gender">C</label>
+        <input type="checkbox" id="skills" name="skills" value="Female" />
+        <label for="gender">C++</label>
+        <input type="checkbox" id="skills" name="skills" value="Male" />
+        <label for="gender">Java</label>
+      </fieldset>
+      <a href="./sucess.html" id="btn">Submit</a>
+      <!-- <button type="reset">Reset</button> -->
+    </div>
+
+    <!-- </main> -->
+    <!-- <footer>&copy;Vignan institution of science and technologies</footer> -->
+  </body>
+</html>
